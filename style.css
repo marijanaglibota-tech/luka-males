@@ -36,8 +36,10 @@ h1 {
 /* Layout for image + first two boxes */
 .container {
     display: flex;
-    gap: 0px;
-    align-items: stretch; /* Makes right box match image height */
+    gap: 40px;
+    align-items: center; /* Makes right box match image height */
+    height: auto;
+    overflow: visible
     margin-bottom: 20px;
 }
 
